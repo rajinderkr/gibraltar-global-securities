@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4">
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663339346971/EihsNDjcUFVjAdIE.png" alt="Gibraltar Global Securities" className="h-16 w-auto" />
+              <img src="/images/logo-footer.png" alt="Gibraltar Global Securities" className="h-24 w-auto mt-5" />
             </div>
             <p className="text-sm opacity-90">
               Specialized logistics and compliance services for verified organizations worldwide.

@@ -20,7 +20,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663339346971/EihsNDjcUFVjAdIE.png" alt="Gibraltar Global Securities" className="h-16 w-auto" />
+              <img src="/images/logo.png" alt="Gibraltar Global Securities" className="h-24 w-auto mt-5" />
             </div>
           </Link>
 

@@ -25,7 +25,7 @@ export default function Services() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-12 rounded-lg flex items-center justify-center h-64">
-                  <Package className="text-primary" size={80} />
+                  <Package className="text-primary" size={180} />
                 </div>
               </div>
               
@@ -65,7 +65,7 @@ export default function Services() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="bg-gradient-to-br from-orange-100 to-orange-50 p-12 rounded-lg flex items-center justify-center h-64">
-                  <Globe className="text-accent" size={80} />
+                  <Globe className="text-accent" size={180} />
                 </div>
               </div>
               
@@ -102,7 +102,7 @@ export default function Services() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-12 rounded-lg flex items-center justify-center h-64">
-                  <Dog className="text-accent" size={80} />
+                  <img src="/images/dog.png" alt="Gibraltar Global Securities" className="h-100 w-auto" />
                 </div>
               </div>
               
