@@ -10,17 +10,28 @@ export default function Home() {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white py-20 md:py-32">
-          <div className="container">
-            <div className="max-w-3xl">
+       <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white py-24 md:py-32">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              {/* Large Logo */}
+              <div className="flex justify-center mb-0">
+                <img
+                  src="/images/logo.png"
+                  alt="Gibraltar Global Securities Logo"
+                  className="h-24 md:h-42 lg:h-48 w-auto"
+                />
+              </div>
+              {/* Hero Title */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Strategic Solutions for Complex Operations
+                Gibraltar Global Securities
               </h1>
-              <p className="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
+              {/* Subtitle */}
+              <p className="text-lg md:text-xl text-blue-100 mb-10 leading-relaxed max-w-2xl mx-auto">
                 Providing specialized logistics, trade compliance, and operational support services to verified organizations worldwide.
               </p>
+              {/* CTA Button */}
               <Link href="/contact">
-                <button className="bg-accent text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition-colors flex items-center gap-2 cursor-pointer">
+                <button className="bg-accent text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition-colors inline-flex items-center gap-2">
                   Contact Us
                   <ArrowRight size={20} />
                 </button>
